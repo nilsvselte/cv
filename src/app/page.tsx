@@ -1,12 +1,8 @@
 "use client"
-import Image from 'next/image'
-import ImageTrack from './image-track'
+import { useRouter } from "next/navigation"
 
 export default function Home() {
-  return (
-    <div>
-      <h1 className="tw-text-center tw-mt-14" >Nils Selte:</h1>
-      <ImageTrack></ImageTrack> 
-    </div>
-  )
+  const router = useRouter()
+  router.push("/about")
+  return (<></>)
 }

@@ -1,6 +1,6 @@
 "use client"
 import { useEffect, useRef, useState } from "react";
-import styles from "../../styles/ImageTrack.module.css";
+import styles from "../../../styles/ImageTrack.module.css";
 
 type StyleState = {
     transform: string;
